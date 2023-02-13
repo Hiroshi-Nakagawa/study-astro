@@ -1,15 +1,18 @@
 {
-	"name": "terrestrial-tower",
-	"type": "module",
-	"version": "0.0.1",
-	"scripts": {
-		"dev": "astro dev",
-		"start": "astro dev",
-		"build": "astro build",
-		"preview": "astro preview",
-		"astro": "astro"
-	},
-	"dependencies": {
-		"astro": "^2.0.10"
-	}
+  "name": "terrestrial-tower",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@typescript-eslint/parser": "^5.51.0",
+    "astro": "^2.0.10",
+    "eslint-plugin-astro": "^0.23.0",
+    "prettier-plugin-astro": "^0.8.0"
+  }
 }
